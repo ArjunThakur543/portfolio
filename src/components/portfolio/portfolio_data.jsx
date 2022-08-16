@@ -11,28 +11,28 @@ export const Portfolio_data = [
         id : 1,
         image : IMG1,
         title : 'Portfolio Website',
-        github : 'github.com',
+        github : 'https://github.com/ArjunThakur543',
         live : 'github.com'
     },
     {
         id : 2,
         image : IMG2,
         title : 'Blog Website',
-        github : 'github.com',
+        github : 'https://github.com/ArjunThakur543',
         live : 'github.com'
     },
     {
         id : 3,
         image : IMG3,
         title : 'Snake Game',
-        github : 'github.com',
+        github : 'https://github.com/ArjunThakur543',
         live : 'github.com'    
     },
     {
         id : 4,
         image : IMG4,
         title : 'Air Hockey Game',
-        github : 'github.com',
+        github : 'https://github.com/ArjunThakur543',
         live : 'github.com'
     },
     // {
