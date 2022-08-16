@@ -12,7 +12,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
-          <img src={ME} alt="image"  className="about__me-image"/>
+          <img src={ME} alt="image" className="about__me-image" />
         </div>
         <div className="about__contant">
           <div className="about__cards">
@@ -33,12 +33,19 @@ const About = () => {
             </article> */}
           </div>
           <p className="about__content">
-            I am a student, persuing B.Tech from National Institute of Technology
-            , Hamirpur in Mechanical Engineering. I am a tech enthusiast with dire interest
-            in new technical advancements.
+            I am a student, persuing B.Tech from National Institute of
+            Technology , Hamirpur in Mechanical Engineering. I am a tech
+            enthusiast with dire interest in new technical advancements.
+            <br />
+            <br />I am a front-end developer with much experience and also can
+            work on different frameworks like ReactJs Angular and Django. I also
+            have experience of creating projects in python using object
+            orientation programming.
           </p>
 
-          <a href="#Contact" className="btn btn-primary">Let's talk</a>
+          <a href="#Contact" className="btn btn-primary">
+            Let's talk
+          </a>
         </div>
       </div>
     </section>

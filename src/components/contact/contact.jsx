@@ -40,13 +40,13 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Arjun Thakur</h5>
-            <a target={"_blank"} href="https://m.me/yourprofilesubtag">Send a Message</a>
+            <a target={"_blank"} href="https://m.me/profile.php?id=100004731976541">Send a Message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp  className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+91 1234567891</h5>
+            <h5>+91 98828-15247</h5>
             <a target={"_blank"} href="https://api.whatsapp.com/send?phone+919882815247">Send a Message</a>
           </article>
         </div>
