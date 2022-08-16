@@ -3,7 +3,7 @@ import './header.css'
 import CTA from "./CTA"
 import HeaderSocials from './HeaderSocials'
 import ME from "./../../assets/me.png"
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 
 const Header = () => {
   return (
@@ -12,13 +12,13 @@ const Header = () => {
         <h4>Hello I'm</h4>
         <h1>Arjun Thakur</h1>
         <h3 className="text-light">
-        <Typed
+        {/* <Typed
           strings={['Mechanical Engineer','Front-end Developer','Python Enthusiast']}
           typeSpeed={100}
           loop = {true}
           smartBackspace = {true}
           backSpeed = {40}
-        />
+        /> */}Front-end Developer
         </h3>
         <CTA />
         <HeaderSocials />
