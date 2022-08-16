@@ -33,21 +33,21 @@ const Contact = () => {
             <MdEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>dummyemail.com</h5>
-            <a href="mailto:tarjun975@gmail.com" target={"_blank"} rel={"noopener"}>Send a Message</a>
+            <a href="mailto:tarjun975@gmail.com" target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
 
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Arjun Thakur</h5>
-            <a  href="https://m.me/profile.php?id=100004731976541"target={"_blank"} rel={"noopener"}>Send a Message</a>
+            <a  href="https://m.me/profile.php?id=100004731976541"target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp  className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+91 98828-15247</h5>
-            <a target={"_blank"} rel={"noopener"} href="https://api.whatsapp.com/send?phone+919882815247">Send a Message</a>
+            <a target={"_blank"} rel={"noreferrer"} href="https://api.whatsapp.com/send?phone+919882815247">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

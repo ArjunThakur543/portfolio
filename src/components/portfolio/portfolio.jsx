@@ -18,10 +18,10 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn btn-disable" target={"_blank"} rel={"noopener"} disabled>
+                  <a href={github} className="btn btn-disable" target={"_blank"} rel={"noreferrer"} disabled>
                     Github
                   </a>
-                  <a href={live} className="btn btn-primary btn__disable" target={"_blank"} rel={"noopener"}>
+                  <a href={live} className="btn btn-primary btn__disable" target={"_blank"} rel={"noreferrer"}>
                     Live Demo
                   </a>
                 </div>
