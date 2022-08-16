@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import ME from "./../../assets/me-about.jpg";
-import { RiAwardFill } from "react-icons/ri";
-import { FiUsers } from "react-icons/fi";
-import { RiFolder3Fill } from "react-icons/ri";
+// import { RiAwardFill } from "react-icons/ri";
+// import { FiUsers } from "react-icons/fi";
+// import { RiFolder3Fill } from "react-icons/ri";
 
 const About = () => {
   return (
