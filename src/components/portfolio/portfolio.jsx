@@ -13,19 +13,19 @@ const Portfolio = () => {
           Portfolio_data.map(({id, image, title, github, live}) => {
             return(
               <article className="portfolio__item">
-          <div key={id} className="portfolio__item-image">
-            <img src={image} alt={title} />
-          </div>
-          <h3>{title}</h3>
-          <div className="portfolio__item-cta">
-            <a href={github} className="btn btn-disable" target={"_blank"} disabled>
-              Github
-            </a>
-            <a href={live} className="btn btn-primary btn__disable" target={"_blank"}>
-              Live Demo
-            </a>
-          </div>
-        </article>
+                <div key={id} className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={github} className="btn btn-disable" target={"_blank"} disabled>
+                    Github
+                  </a>
+                  <a href={live} className="btn btn-primary btn__disable" target={"_blank"}>
+                    Live Demo
+                  </a>
+                </div>
+              </article>
             )
           })
         }
