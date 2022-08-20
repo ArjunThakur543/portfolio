@@ -13,13 +13,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_gcfasc8', 'service_gcfasc8', form.current, 'wTpdccsdR_tQpKEzg')
+    emailjs.sendForm('service_gcfasc8', 'template_5zknjol', form.current, 'wTpdccsdR_tQpKEzg')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-
       e.target.reset()
   };
 
@@ -59,7 +58,7 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your full name' required />
+          <input type="text" name="name" placeholder='Your full name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type="submit" className='btn btn-primary'>Send</button>

@@ -12,9 +12,9 @@ const Footer = () => {
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Exp">Experience</a></li>
-        <li><a href="#Services">Services</a></li>
+        {/* <li><a href="#Services">Services</a></li> */}
         <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#Testimonials">Testimonials</a></li>
+        {/* <li><a href="#Testimonials">Testimonials</a></li> */}
         <li><a href="#Contact">Contact</a></li>
       </ul>
 
