@@ -1,9 +1,10 @@
-import React,{ useRef } from 'react'
+import React,{ useRef, useEffect } from 'react'
 import emailjs from 'emailjs-com';
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import AOS from 'aos';
 
 const Contact = () => {
 
@@ -22,6 +23,13 @@ const Contact = () => {
       e.target.reset()
   };
 
+  useEffect(() => {
+    AOS.init(
+      {duration : 4000}
+    );
+    AOS.refresh();
+  }, []);
+
   return (
     <section id="Contact">
       <h5>Get in Touch</h5>
@@ -29,21 +37,21 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in-right">
             <MdEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>dummyemail.com</h5>
             <a href="mailto:tarjun975@gmail.com" target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
 
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in-right">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Arjun Thakur</h5>
             <a  href="https://m.me/profile.php?id=100004731976541"target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
 
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in-right">
             <BsWhatsapp  className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>+91 98828-15247</h5>

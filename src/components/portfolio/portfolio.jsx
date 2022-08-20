@@ -1,9 +1,19 @@
 import React from "react";
+import { useEffect } from "react";
 import "./portfolio.css";
 import { Portfolio_data } from "./portfolio_data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
-const Portfolio = () => {
+
+function Portfolio ()  {
+  useEffect(() => {
+    AOS.init(
+      {duration : 4000}
+    );
+    AOS.refresh();
+  }, []);
   return (
     <section id="Portfolio">
       <h5>My recent Work</h5>
@@ -12,7 +22,7 @@ const Portfolio = () => {
         {
           Portfolio_data.map(({id, image, title, github, live}) => {
             return(
-              <article className="portfolio__item">
+              <article data-aos="fade-up" className="portfolio__item"  >
                 <div key={id} className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import ME from "./../../assets/me-about.jpg";
+// import AOS from "aos";
+// import { useEffect } from "react";
 // import { RiAwardFill } from "react-icons/ri";
 // import { FiUsers } from "react-icons/fi";
 // import { RiFolder3Fill } from "react-icons/ri";
@@ -32,12 +34,13 @@ const About = () => {
               <small>Many Years</small>
             </article> */}
           </div>
-          <p className="about__content">
+          <p className="about__content" data-aos="fade-in">
             I am a student, persuing B.Tech from National Institute of
             Technology , Hamirpur in Mechanical Engineering. I am a tech
             enthusiast with dire interest in new technical advancements.
             <br />
-            <br />I am a front-end developer with much experience and also can
+            <br />
+            I am a front-end developer with much experience and also can
             work on different frameworks like ReactJs Angular and Django. I also
             have experience of creating projects in python using object
             orientation programming.
