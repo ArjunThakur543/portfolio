@@ -39,8 +39,8 @@ const Contact = () => {
           <article className="contact__option" data-aos="zoom-in-right">
             <MdEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>dummyemail.com</h5>
-            <a href="mailto:tarjun975@gmail.com" target={"_blank"} rel={"noreferrer"}>Send a Message</a>
+            <h5>21bme057@nith.ac.in</h5>
+            <a href="mailto:21bme057@nith.ac.in" target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
 
           <article className="contact__option" data-aos="zoom-in-right">
