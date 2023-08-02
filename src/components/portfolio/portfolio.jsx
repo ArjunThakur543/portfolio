@@ -22,7 +22,7 @@ function Portfolio ()  {
         {
           Portfolio_data.map(({id, image, title, github, live}) => {
             return(
-              <article data-aos="fade-up" className="portfolio__item"  >
+              <article className="portfolio__item"  >
                 <div key={id} className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>

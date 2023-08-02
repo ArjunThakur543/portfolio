@@ -59,6 +59,7 @@ h1{
 }
 
 section{
+    overflow: hidden;
     margin-top: 8rem;
 }
 
