@@ -42,14 +42,14 @@ const Contact = () => {
             <h5>21bme057@nith.ac.in</h5>
             <a href="mailto:21bme057@nith.ac.in" target={"_blank"} rel={"noreferrer"}>Send a Message</a>
           </article>
-
+{/* 
           <article className="contact__option" data-aos="zoom-in-right">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Arjun Thakur</h5>
             <a  href="https://m.me/profile.php?id=100004731976541"target={"_blank"} rel={"noreferrer"}>Send a Message</a>
-          </article>
-
+          </article> 
+*/}
           <article className="contact__option" data-aos="zoom-in-right">
             <BsWhatsapp  className='contact__option-icon'/>
             <h4>Whatsapp</h4>
