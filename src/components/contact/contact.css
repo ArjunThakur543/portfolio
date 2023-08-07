@@ -36,9 +36,6 @@
     font-size: 0.8rem;
 }
 
-
-
-
 /* form  */
 
 form {
@@ -57,13 +54,7 @@ input, textarea {
     color: var(--color-light);
 }
 
-
-
-
-
-
 /***********for medium devices****************/
-
 
 @media screen and (max-width: 1024px) {
     .container.contact__container{
@@ -74,12 +65,9 @@ input, textarea {
 
 /***********for small devices****************/
 
-
 @media screen and (max-width: 600px) {
     .container.contact__container{
         grid-template-columns: 1fr;
         width: var(--container-width-ms);
-
     }
 }
-
